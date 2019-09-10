@@ -1,0 +1,27 @@
+{
+  "name": "@arzyu/get-json",
+  "version": "1.0.0",
+  "description": "Read json file into object",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.4"
+  },
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arzyu/get-json"
+  },
+  "license": "MIT"
+}
